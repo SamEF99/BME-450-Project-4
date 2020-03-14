@@ -10,7 +10,9 @@ For the second part of the project, we need to read data from the OOI website th
 
 # The Code:
 
+We start by copying in URLs to data packagaes on the OOI raw data server, which are found using the results of Project 2. We then read the data and assign it to the relevant variables. We are able to read the sampling rate and start time from the data stream and set an end time based off of that. Using these we create a slice of the data from our set start to end time, and find the one second segment of the time series from the one second slice. Using a given equation, we can find the PSD of the signals and convert that into decibels. Finally we plot the PSD against frequency for each of the conditions for both locations.
 
+For the second part of the project, we once again copy in URLs to the data stream for the sound we need. We can read the sampling rate and start time again, and set our desired end time for the slice. Using our given equations again, we can plot a spectrogram of time against frequency for each of the three audio sources.
 
 # Results:
 
@@ -31,6 +33,20 @@ For the second part of the project, we need to read data from the OOI website th
 ![](BME450_Project_4_Fig_8.PNG)
 
 # Questions:
+
+1) What is the effect of wind and rain on underwater noise? Explain any behavior you see in your result.
+
+
+
+2) Which one has the highest impact? Rain or wind?
+
+
+
+3) What are the main reasons for observing different spectral levels in Oregon shelf compared to Oregon offshore?
+
+
+
+4) Compare the bandwidth of these three signals. Are they consistent with what is shown in the Wenz curve?
 
 
 
