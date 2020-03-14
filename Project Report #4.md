@@ -40,11 +40,11 @@ For the second part of the project, we once again copy in URLs to the data strea
 
 2) Which one has the highest impact? Rain or wind?
 
-
+W
 
 3) What are the main reasons for observing different spectral levels in Oregon shelf compared to Oregon offshore?
 
-
+The two sites are at vastly different depths, which will change the spectral density 
 
 4) Compare the bandwidth of these three signals. Are they consistent with what is shown in the Wenz curve?
 
